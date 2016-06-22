@@ -11,7 +11,8 @@ gulp.task('sprite', function(){
 						.pipe(spritecreator({
 							imgName: 'sprite.png',
 							cssName: 'sprite.css',
-							algorithm: 'binary-tree'
+							algorithm: 'binary-tree',
+							padding: 10
 						}));
 	spriteData.img.pipe(gulp.dest('build/img/'));
 	spriteData.css.pipe(gulp.dest('build/css/'));

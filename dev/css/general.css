@@ -32,7 +32,7 @@
 }
 .menu-primary li .icon{
 	margin-bottom: 18px;
-	background-color: #fbfbfb;
+	/*background-color: #fbfbfb;*/
 	padding:0 3px 3px 3px;
 }
 .menu-primary li a{
@@ -43,21 +43,18 @@
 	color:#fdcc05;
 	
 }
-menu-primary li a:hover .icon-home{
+/*menu-primary li a:hover .icon-home{
 	background: url(../img/sprite.png);
-}
+}*/
 .icon{
 	display:inline-block;
 	vertical-align: top;
-	background: url(../img/sprite.png);
+	/*background: url(../img/sprite.png);*/
 	background-repeat: no-repeat; 
 }
 .icon-big{
 	width: 26px;
 	height: 26px;
 }
-.icon-icon-home{
-	background: url(../img/sprite.png);
-	
-}
+
 
